@@ -51,6 +51,8 @@ class Warmup2(ShowBase):
 
             self.parent.instanceTo(placeholder)
             x += 0.06
+
+        assert self.camera is not None
             
         self.camera.setPos(0.0, 0.0, 258.0)
         self.camera.setHpr(0.0, -90.0, 0.0)
